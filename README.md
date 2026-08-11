@@ -11,6 +11,23 @@ This repository contains a Python program developed for my undergraduate researc
 It analyzes the kinematics and statics of parallel-link haptic devices and
 visualizes endpoint forces and feasible force-feedback regions.
 
+## 動作概要
+使用ライブラリ
+
+
+### 逆運動学ファイル
+マウスカーソルの座標に応じてロボットアーム先端の座標が変更され、計算結果が表示されます。
+手元のPCからpythonファイルを実行すれば動作します。
+
+### 順運動学ファイル
+実行時にθ1,θ2の指定が必要です。
+コマンドプロンプトにθを入力後、ロボットアーム先端を動かす方向を指定する角度を指定します。
+電圧の値についても聞かれますが、これは実験室装置由来の定数です。この値が大きければ大きいほど大きな力が発生します。
+
+![平行リンク機構の座標系](readme用画像.png)
+
+いずれの角度も図の角度を基準としています。
+
 ## 解析概要
 
 ### 1. 平行リンク機構の運動学
