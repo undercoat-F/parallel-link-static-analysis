@@ -42,10 +42,19 @@ fₑ = J⁻ᵀ(θ)τ
 
 計算式例
 $$
-f1=\frac{τ_1}{L\sin(\theta_1-\theta_2)}
 \begin{bmatrix}
-cos{theta_2} \\
-sin{theta_1}
+f_{e1} \\
+f_{e2}
+\end{bmatrix}
+=
+\frac{1}{-L\sin(\theta_1-\theta_2)}
+\begin{bmatrix}
+\cos\theta_2 & -\cos\theta_1 \\
+\sin\theta_2 & -\sin\theta_1
+\end{bmatrix}
+\begin{bmatrix}
+\tau_1 \\
+\tau_2
 \end{bmatrix}
 $$
 
