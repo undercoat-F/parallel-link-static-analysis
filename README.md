@@ -41,22 +41,9 @@ fₑ = J⁻ᵀ(θ)τ
 から手先に発生する抵抗力を計算します。
 
 計算式例
-$$
-\begin{bmatrix}
-f_{e1} \\
-f_{e2}
-\end{bmatrix}
-=
-\frac{1}{-L\sin(\theta_1-\theta_2)}
-\begin{bmatrix}
-\cos\theta_2 & -\cos\theta_1 \\
-\sin\theta_2 & -\sin\theta_1
-\end{bmatrix}
-\begin{bmatrix}
-\tau_1 \\
-\tau_2
-\end{bmatrix}
-$$
+
+$$ \begin{pmatrix} f_{e1} \ f_{e2} \end{pmatrix}
+\frac{1}{-L\sin(\theta_1-\theta_2)} \begin{pmatrix} \cos\theta_2 & -\cos\theta_1 \ \sin\theta_2 & -\sin\theta_1 \end{pmatrix} \begin{pmatrix} \tau_1 \ \tau_2 \end{pmatrix} $$
 
 ### 3. ブレーキ式・クラッチ式の比較
 
