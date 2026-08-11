@@ -42,7 +42,6 @@ fₑ = J⁻ᵀ(θ)τ
 
 計算式例
 
-```math
 \begin{bmatrix}
 f_{e1} \\
 f_{e2}
