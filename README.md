@@ -40,6 +40,15 @@ fₑ = J⁻ᵀ(θ)τ
 
 から手先に発生する抵抗力を計算します。
 
+計算式例
+$$
+f1=\frac{τ_1}{L\sin(\theta_1-\theta_2)}
+\begin{bmatrix}
+cos{theta_2} \\
+sin{theta_1}
+\end{bmatrix}
+$$
+
 ### 3. ブレーキ式・クラッチ式の比較
 
 MR流体ブレーキを利用する方式とMRクラッチを利用する方式について、
